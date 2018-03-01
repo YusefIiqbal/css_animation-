@@ -15,8 +15,8 @@ Button clicking animation and image selected  animation .
 ----
 ### Second part of the animation project..  
 #### Image selected animation  
-* ##### Bootstrap [Link](https://getbootstrap.com/)    
--Row and column [Link](https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp0)   
+* ##### Bootstrap [Link](https://getbootstrap.com/)      
+1. Row and column [Link](https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp0)   
 * ##### Transform [Link](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)  
 1. Scale [Link](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale)
 2. Translate [Link](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate)  
