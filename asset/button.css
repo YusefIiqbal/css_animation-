@@ -10,9 +10,9 @@ h1{
 }
 
 /* Here all the animation part start..
-    Select the button by btn class */
+    Select the button one by btn_one class */
 /* Customise the way you want  */
-.btn{
+.btn_one{
   outline: none;
   border: none;
   cursor: pointer;
@@ -29,9 +29,10 @@ h1{
   border-radius: 20px;
   box-shadow: 0 6px #efa424;
 }
+
 /* Hover - when we move the pointer of mouse on the button the properties will
    change as specified */
-.btn:hover{
+.btn_one:hover{
   /* the shadow width is change so that it appears to press  */
   box-shadow: 0 4px #efa424;
   /* the top is change so that it appears to press, we if does not change
@@ -40,10 +41,78 @@ h1{
 }
 /* Active - when we press the pointer of mouse on the button the properties will
    change as specified */
-.btn:active{
+.btn_one:active{
   /* the shadow width is change so that it appears to press  */
   box-shadow: none;
   /* the top is change so that it appears to press, we if does not change
     the top button will appears to move upward */
   top: 6px;
+}
+
+
+
+
+/* for button two  */
+.two{
+  padding-top: 100px;
+}
+/* Here all the animation part start..
+    Select the button two by btn_two class */
+/* Customise the way you want  */
+.btn_two{
+  color: white;
+  outline: none;
+  border: none;
+  /* position: absolute; */
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  font-weight: 300px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 25px 80px;
+  margin: 0 auto;
+  border-radius: 15px;
+  left: 37%
+  width: 160px;
+  height: 70px;
+  background: tomato;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+/* :before is a psuedo class it gives the current condition */
+.btn_two:before{
+  width: 160px;
+  content: 'Hover me';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ;
+}
+/* :hover:before it dose what happen's after Hover  */
+.btn_two:hover:before{
+  top: -30%;
+}
+
+/* :after is a psuedo class it gives the condition after we hover */
+
+.btn_two:after{
+  font-family: 'Ionicons';
+  content: '\f43c';
+  font-size: 40px;
+  top: calc(100% + 30px);
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ;
+}
+/* :hover:after it make come back to initiall condition  */
+
+.btn_two:hover:after{
+  top: 50%;
 }
