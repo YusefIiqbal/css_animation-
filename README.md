@@ -24,8 +24,3 @@ Button clicking animation and image selected  animation .
 3. Creat your own {single-transition-timing-function} [Link](https://matthewlein.com/tools/ceaser)
 * ##### Pseudo Classes  [Link](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)  
 * ##### Font Awesome for Icons appear on the image [Link](https://fontawesome.com/icons?d=gallery)
-### Image selected Animation look like...
-![25ixxy](https://user-images.githubusercontent.com/36775905/36848280-cb54ca8c-1d86-11e8-9072-45eeeb6caf5a.gif)
-----
-### Additional part of image selected animation
-![25ixza](https://user-images.githubusercontent.com/36775905/36848336-fa07057a-1d86-11e8-8f09-7484d93a2989.gif)
