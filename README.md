@@ -10,8 +10,6 @@ Button clicking animation and image selected  animation .
 2. Active - The :active CSS pseudo-class represents an element (such as a button) that is being activated by the user. When using a mouse, "activation" typically starts when the user presses down the primary mouse button and ends when it is released. The :active pseudo-class is commonly used on <a> and <button> elements, but may be used on other elements, too.  
    [Link](https://developer.mozilla.org/en-US/docs/Web/CSS/:active)
 
-#### Button Clicking Animation look like...  
-![25j6kw](https://user-images.githubusercontent.com/36775905/36849059-0ca0a004-1d89-11e8-8172-bac9b7ab2400.gif)
 ----
 ### Second part of the animation project..  
 #### Image selected animation  
